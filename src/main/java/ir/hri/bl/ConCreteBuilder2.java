@@ -1,9 +1,9 @@
 package ir.hri.bl;
 
-public class ConCreteBuilder2 implements IBuilder {
+public class ConcreteBuilder2 implements IBuilder {
     Product product;
 
-    public ConCreteBuilder2() {
+    public ConcreteBuilder2 () {
         product = new Product("Windows Phone");
     }
 
