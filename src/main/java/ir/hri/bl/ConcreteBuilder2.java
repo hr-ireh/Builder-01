@@ -8,7 +8,7 @@ public class ConcreteBuilder2 implements IBuilder {
     }
 
     public void BuildScreen() {
-        product.setName("Touch Screen 32 Inch.");
+        product.setScreen("Touch Screen 32 Inch.");
     }
 
     public void BuildOS() {
