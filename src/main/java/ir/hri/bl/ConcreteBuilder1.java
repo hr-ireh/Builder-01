@@ -2,7 +2,7 @@ package ir.hri.bl;
 
 public class ConcreteBuilder1 implements IBuilder {
     Product product;
-
+ 
     public ConcreteBuilder1() {
         product = new Product("Android Cell Phone");
     }
